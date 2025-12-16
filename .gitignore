@@ -1,0 +1,115 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# ===============================
+# Virtual Environments
+# ===============================
+ragenv/
+.venv/
+env/
+ENV/
+
+# ===============================
+# Environment Variables
+# ===============================
+.env
+.env.*
+*.env
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===============================
+# Logs
+# ===============================
+*.log
+logs/
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# FAISS / Vector Stores
+# ===============================
+faiss_store/
+faiss.index
+*.faiss
+metadata.pkl
+
+# ===============================
+# Chroma / Vector DBs
+# ===============================
+chroma/
+chroma_db/
+*.sqlite3
+
+# ===============================
+# Hugging Face / Transformers
+# ===============================
+.cache/
+.cache/huggingface/
+hf_cache/
+models/
+checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# ===============================
+# Torch / CUDA
+# ===============================
+torch_extensions/
+cuda/
+nvrtc/
+
+# ===============================
+# Data / Documents
+# ===============================
+data/
+*.pdf
+*.docx
+*.pptx
+*.csv
+*.jsonl
+
+# ===============================
+# Temporary / Runtime
+# ===============================
+tmp/
+temp/
+outputs/
+runs/
+
+# ===============================
+# Evaluation / Metrics
+# ===============================
+metrics/
+reports/
+
+# ===============================
+# Secrets
+# ===============================
+*.key
+*.pem
+*.crt
